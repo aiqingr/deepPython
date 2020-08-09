@@ -63,4 +63,6 @@ for i in info_index:
 # 形式上 这两种循环都是一样的 但是第一种比第二种要高效
 for i, k in info_index.items():
     print(i, k)
-
+print("*************")
+for val in info_index.values():
+    print(val)
